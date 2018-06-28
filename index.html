@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+    <a-scene>
+        <a-assets>
+        </a-assets>
+        <a-plane static-body position="0 0 -4" rotation="-90 0 0" width="40" height="40w" depth="2" color="#7BC8A4"></a-plane>
+        <a-sky color="skyblue"></a-sky>
+        <a-box static-body color="#989898" width="3" position="0 1 -2"></a-box>
+        <a-box static-body color="#A2A2A2" width="2.5" position="0 3 0"></a-box>
+        <a-box static-body color="#767676" width="2" position="0 5 2"></a-box>
+        <a-box static-body color="#848484" width="1.5" position="0 7 5"></a-box>
+        <a-box static-body color="#696969" width="1" position="0 9 7"></a-box>
+        <a-box static-body color="gray" width="0.5" depth="0.5" height="0.5" position="0 12 10"></a-box>
+        <a-box static-body color="#B7B8B7" width="2.5" position="0 15 7"></a-box>
+        <a-box static-body color="red" width="3" depth="3" position="4 17 4"></a-box>
+        <a-box static-body color="lime" width="3" depth="3" position="-4 17 4"></a-box>
+        <a-box static-body color="#A2A7A9" width="3" position="-9 19 6"></a-box>
+        <a-box static-body color="#9A9B9B" width="3" position="-12 22 9"></a-box>
+        <a-box static-body color="#7D8381" width="3" position="-15 26 11"></a-box>
+        <a-box static-body color="#939998" width="1" position="5 19 7"></a-box>
+        <a-box static-body color="#D8D9D9" width="1" position="6 22 10"></a-box>
+        <a-box static-body color="#7D807F" width="1" position="9 25 12"></a-box>
+        <a-box static-body color="gray" width="1" position="11 28 15"></a-box>
+        <a-box static-body color="#9E9E9E" width="2" position="14 31 17"></a-box>
+        <a-box static-body color="skyblue" height="0.5" wa="0.5" width="0.5" position="17 33 21"></a-box>
+        <a-box static-body color="skyblue" width="0.5" depth="0.5" height="0.5" position="18 35 24"></a-box>
+        <a-box static-body color="skyblue" width="0.1" depth="0.1" height="0.1" position="20 37 26"></a-box>
+        <a-box static-body color="skyblue" width="0.1" depth="0.1" height="0.1" position="22 40 28"></a-box>
+        <a-box static-body color="skyblue" width="0.2" depth="0.2" height="0.2" position="24 40 26"></a-box>
+        <a-box static-body color="black" width="0.75" depth="0.75" height="0.75" position="26 40 24"></a-box>
+        <a-box static-body color="#939393" width="1" position="24 42 21"></a-box>
+        <a-box static-body color="#393939" width="1" position="22 45 18"></a-box>
+        <a-box static-body color="#6F6F6F" width="1" position="20 47 15"></a-box>
+        <a-box static-body color="#474747" width="1" position="18 50 13"></a-box>
+        <a-box static-body color="#4B4B4B" width="1" position="15 50 10"></a-box>
+        <a-box static-body color="#B0B0B0" width="3" position="-21 29 9"></a-box>
+        <a-box static-body color="#7E7E7E" width="3" position="-25 33 12"></a-box>
+        <a-box static-body color="#606161" width="3" position="-28 37 10"></a-box>
+        <a-box static-body color="#555958" width="3" position="-28 41 7"></a-box>
+        <a-box static-body color="#464144" width="3" position="-25 45 4"></a-box>
+        <a-box static-body color="#494949" width="3" position="-22 48 0"></a-box>
+        <a-box static-body color="white" width="35" depth="2" position="0 50 2"></a-box>
+        <a-box static-body color="white" width="3" rotation="30 0 0" depth="20" position="10 55 -7.28"></a-box>
+        <a-box static-body color="#848484" width="3" position="15 50 6"></a-box>
+
+        <a-entity id="rocket">
+        <a-cone static-body color="black" radius-bottom="3" radius-top="1.5" position="7 0 -21" scale="1 6 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="3" radius-top="1.5" position="13 0 -16" scale="1 6 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="3" radius-top="1.5" position="13 0 -21" scale="1 6 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="3" radius-top="1.5" position="10 0 -18.5" scale="1 6 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="3" radius-top="1.5" position="7 0 -16" scale="1 6 1"></a-cone>
+        <a-cylinder static-body color="white" position="7 3 -21 " scale="1.25  4 1.25"></a-cylinder>
+        <a-cylinder static-body color="white" position="13 3 -16 " scale="1.25  4 1.25"></a-cylinder>
+        <a-cylinder static-body color="white" position="13 3 -21 " scale="1.25  4 1.25"></a-cylinder>
+        <a-cylinder static-body color="white" position="10 3 -18.5 " scale="1.25  4 1.25"></a-cylinder>
+        <a-cylinder static-body color="white" position="7 3 -16 " scale="1.25  4 1.25"></a-cylinder>
+        <a-cylinder static-body color="white" position="10 20 -18.5 " scale="4.5 30 4.5"></a-cylinder>
+        <a-cone static-body color="black" radius-bottom="1.5" radius-top="0" position="7 9 -16" scale="1 10 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="1.5" radius-top="0" position="13 9 -16" scale="1 10 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="1.5" radius-top="0" position="13 9 -21" scale="1 10 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="1.5" radius-top="0" position="7 9 -21" scale="1 10 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="1.5" radius-top="0" position="10 9 -18.5" scale="1 10 1"></a-cone>
+        <a-cone static-body color="black" radius-bottom="4.5" radius-top="4" position="10 37.5 -18.5" scale="1 5 1"></a-cone>
+        <a-cylinder static-body color="white" position="10 42 -18.5 " scale="4 15 4"></a-cylinder>
+        <a-cone static-body color="black" radius-bottom="4" radius-top="3" position="10 52 -18.5" scale="1 5 1"></a-cone>
+        <a-cylinder static-body color="white" position="10 57 -18.5 " scale="3 5 3"></a-cylinder>
+        <a-cone static-body color="black" radius-bottom="4" radius-top="3" position="10 61 -18.5" scale=".75 3 .75"></a-cone>
+        <a-cylinder static-body color="white" position="10 64 -18.5 " scale="2.3 3 2.3"></a-cylinder>
+        <a-cone static-body color="black" radius-bottom="4" radius-top="1" position="10 67 -18.5" scale=".58 3 .58"></a-cone>
+        <a-cone static-body color="white" radius-bottom="1" radius-top="0" position="10 75 -18.5" scale=".58 15 .58"></a-cone>
+        <a-box id="clickBox" height="5" position="6 0 10" rotation="0 0 0" color="#CCCCCC"></a-box>
+        <a-curvedimage static-body color="white" src="another-image.png"></a-curvedimage>
+        </a-entity>
+
+
+        <a-entity class="player" id="player" camera jump-ability universal-controls kinematic-body position="0 4 -5">
+            <a-cursor></a-cursor>
+        </a-entity>
+    </a-scene>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
